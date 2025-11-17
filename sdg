@@ -1,0 +1,58 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height:100%;width:100%">
+  <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+  <div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com/symbols/XAUUSD/?exchange=OANDA" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+  {
+  "allow_symbol_change": true,
+  "calendar": false,
+  "details": true,
+  "hide_side_toolbar": false,
+  "hide_top_toolbar": false,
+  "hide_legend": false,
+  "hide_volume": false,
+  "hotlist": true,
+  "interval": "15",
+  "locale": "ru",
+  "save_image": true,
+  "style": "1",
+  "symbol": "OANDA:XAUUSD",
+  "theme": "dark",
+  "timezone": "Europe/Riga",
+  "backgroundColor": "#0F0F0F",
+  "gridColor": "rgba(242, 242, 242, 0.06)",
+  "watchlist": [
+    "TICKMILL:EURUSD",
+    "OANDA:GBPUSD",
+    "OANDA:USDJPY",
+    "TVC:DXY",
+    "INDEX:BTCUSD",
+    "TVC:NDQ",
+    "CAPITALCOM:DE40",
+    "OANDA:AUDUSD",
+    "OANDA:USDCAD",
+    "TVC:SILVER"
+  ],
+  "withdateranges": true,
+  "range": "YTD",
+  "compareSymbols": [
+    {
+      "symbol": "COINBASE:GOLZ2025",
+      "position": "SameScale"
+    }
+  ],
+  "show_popup_button": true,
+  "popup_height": "650",
+  "popup_width": "1000",
+  "studies": [
+    "STD;24h%Volume",
+    "STD;Average_True_Range",
+    "STD;Net%1Volume",
+    "STD;On_Balance_Volume",
+    "STD;Volume%1Delta"
+  ],
+  "autosize": true
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
